@@ -1,0 +1,34 @@
+*************************************************************************
+# CORS: hen develop on localhost sometimes it's nedded to disable CORS 
+
+-e, --enable                 Enable CORS checks
+-d, --disable                Disable CORS checks
+-b, --disable-banner         Disable the warning banner in Chrome
+-p, --flutter-path=<path>    Flutter root path (determined automatically if not specified)
+
+$ fluttercors --disable
+$ fluttercors --enable
+$ fluttercors -db -p /path/to/flutter 
+    Example: fluttercors -db -p /Users/mserena/Desktop/workspace/flutter
+
+*************************************************************************
+# Firebase emulators
+
+modify emulators: firebase init
+
+start: firebase emulators:start --import=exported-dev-data --export-on-exit=exported-dev-data
+
+*************************************************************************
+# Functions
+# Deploy functions on emulators
+
+npm run build 
+
+#Deploy functions on firebase
+
+particular:                 firebase deploy --only functions:groupBooking-expireBooking
+all:                        firebase deploy --only functions
+
+#Autofix typescript problems
+
+npm run lint -- --fix

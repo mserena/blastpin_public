@@ -1,0 +1,59 @@
+{
+    "notifications" : [
+        {
+            "type" : "connectionError",
+            "time" : 0,
+            "text" : "You are using BlasPin without connection."
+        },
+        {
+            "type" : "locationDisabled",
+            "time" : 3,
+            "text" : "Please, enable location service on you device."
+        },
+        {
+            "type" : "locationDeneided",
+            "time" : 3,
+            "text" : "Location permissions are denied. We can't find you."
+        },
+        {
+            "type" : "locationDeneidedForever",
+            "time" : 3,
+            "text" : "Location permissions are permanently denied. Please, allow it from your device settings."
+        },
+        {
+            "type" : "signinCheckEmailLink",
+            "time" : 5,
+            "text" : "Check your inbox, we sent an email with sign-in link."
+        },
+        {
+            "type" : "signinDone",
+            "time" : 3,
+            "text" : "Hey ==username==, nice to see you :)"
+        },
+        {
+            "type" : "signinCanceled",
+            "time" : 3,
+            "text" : "You have canceled sign-in."
+        },
+        {
+            "type" : "signinError",
+            "time" : 3,
+            "text" : "It seems that there are problems with sign-in process. Try again later."
+        },
+        {
+            "type" : "publishDone",
+            "time" : 3,
+            "text" : "Great, we have received your publication and we will review it."
+        },
+        {
+            "type" : "publishError",
+            "time" : 3,
+            "text" : "It seems that there are problems with publish process. Try again later."
+        },
+        {
+            "type" : "unknownError",
+            "time" : 3,
+            "text" : "Something has gone wrong. Try again later."
+        }
+    ]
+}

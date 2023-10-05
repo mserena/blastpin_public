@@ -1,0 +1,13 @@
+/* Remove Google Terms and Conditions */
+/*
+a[href^="http://maps.google.com/maps"]{display:none !important}
+a[href^="https://maps.google.com/maps"]{display:none !important}
+*/
+
+/* Remove Google logo */
+.gmnoprint a, .gmnoprint span, .gm-style-cc {
+    display:none;
+}
+.gmnoprint div {
+    background:none !important;
+}

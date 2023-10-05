@@ -1,0 +1,105 @@
+{
+    "bounds" : {
+        "southwest" : {
+            "latitude" : 41.21017331282687,
+            "longitude" : 1.7145538749999822
+        },
+        "northeast" : {
+            "latitude" : 41.56973951708928,
+            "longitude" : 2.5934601249999822
+        }
+    },
+    "defaultArea" : "Barcelona",
+    "areas" : [
+        {
+            "id" : "Barcelona",
+            "currency" : "EUR",
+            "locale" : "es",
+            "icon" : "images/cities/BarcelonaIcon.png",
+            "center" : {
+                "latitude" : 41.39020499999999,
+                "longitude" : 2.1540069999999822
+            },
+            "bounds" : {
+                "southwest" : {
+                    "latitude" : 41.300450,
+                    "longitude" : 2.089566
+                },
+                "northeast" : {
+                    "latitude" : 41.467320,
+                    "longitude" : 2.311971
+                }
+            },
+            "polygon" : [
+                {
+                    "latitude" : 41.43417,
+                    "longitude" : 2.10143
+                },
+                {
+                    "latitude" : 41.44878,
+                    "longitude" : 2.14233
+                },
+                {
+                    "latitude" : 41.45122,
+                    "longitude" : 2.17126
+                },
+                {
+                    "latitude" : 41.46036,
+                    "longitude" : 2.21186
+                },
+                {
+                    "latitude" : 41.46332,
+                    "longitude" : 2.26344
+                },
+                {
+                    "latitude" : 41.45471,
+                    "longitude" : 2.26524
+                },
+                {
+                    "latitude" : 41.43272,
+                    "longitude" : 2.24919
+                },
+                {
+                    "latitude" : 41.40341,
+                    "longitude" : 2.23254
+                },
+                {
+                    "latitude" : 41.36329,
+                    "longitude" : 2.19649
+                },      
+                {
+                    "latitude" : 41.30947,
+                    "longitude" : 2.174
+                }, 
+                {
+                    "latitude" : 41.29106,
+                    "longitude" : 2.15727
+                },      
+                {
+                    "latitude" : 41.29032,
+                    "longitude" : 2.12474
+                },
+                {
+                    "latitude" : 41.31947,
+                    "longitude" : 2.07307
+                },
+                {
+                    "latitude" : 41.34663,
+                    "longitude" : 2.05328
+                },
+                {
+                    "latitude" : 41.36245,
+                    "longitude" : 2.05067
+                },        
+                {
+                    "latitude" : 41.38702,
+                    "longitude" : 2.05629
+                },
+                {
+                    "latitude" : 41.39639,
+                    "longitude" : 2.08285
+                }
+            ]
+        }
+    ]    
+}
